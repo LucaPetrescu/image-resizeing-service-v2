@@ -22,6 +22,7 @@
     "experimentalDecorators": true,
     "resolveJsonModule": true,
     "paths": {},
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   }
 }
