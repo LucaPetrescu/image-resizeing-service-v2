@@ -64,7 +64,7 @@ class ImageController {
       const imageFolder = path.join(__dirname, "../", "images");
 
       const noOfOriginaFiles = await countFilesInDirectory(imageFolder);
-
+      console.log("noOfOriginalFiles:", noOfOriginaFiles);
       res.send({
         RelevantInfo: {
           hits,
