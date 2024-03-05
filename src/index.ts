@@ -37,7 +37,7 @@ class App {
     }
   }
 }
-const app = new App().app;
+export const app = new App().app;
 
 app.use(require("express-status-monitor")());
 app.use("/images", express.static(path.join(__dirname, "/images")));
